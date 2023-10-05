@@ -6,13 +6,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "book-yellow": "#fce62e",
+        "book-yellow": "#fcc64e",
         "book-gray": "#1a1a1c",
-        "book-theme": "#f59e0b",
+        "book-theme": "#fcc64e",
+        "nat-light-grey": "#bcbec1",
       },
       fontFamily: {
-        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
-        body: ["PT Serif"],
+        sans: ['"Open Sans"', ...defaultTheme.fontFamily.sans],
+        body: ['"Open Sans"'],
       },
     },
   },
