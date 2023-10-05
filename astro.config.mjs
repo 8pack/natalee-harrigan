@@ -10,5 +10,9 @@ import partytown from "@astrojs/partytown";
 export default defineConfig({
   integrations: [tailwind(), svelte(), sitemap(), partytown()],
   output: "server",
-  adapter: vercel(),
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    },
+  }),
 });
