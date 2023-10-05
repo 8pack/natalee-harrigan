@@ -3,11 +3,11 @@
   "showCountingSell": false,
   "showBuyAudiobookButton": false,
   "seo": {
-    "title": "Livro Chapada do Corisco por Alisson Carvalho",
-    "description": "Um remador solitário e a tragédia que maculou a história da vila de pescadores",
-    "canonical": "https://www.livrochapadadocorisco.com",
-    "locale": "pt_BR",
-    "image": "/og_image_800_600_2.png"
+    "title": "Natalee Harrigan",
+    "description": "Mrs. Natalee Harrigan BSc TechIOSH is an Occupational Safety and Health Professional with a background in Environmental Management.",
+    "canonical": "https://www.nataleeharrigan.com/",
+    "locale": "en_GB",
+    "image": "/nat-circle-1.png"
   },
   "theme": {
     "color": "#f59e0b"
