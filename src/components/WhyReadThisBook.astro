@@ -1,0 +1,51 @@
+---
+import Instagram from "./icons/Instagram.svelte";
+import Linkedin from "./icons/Linkedin.svelte";
+import Twitter from "./icons/Twitter.svelte";
+import { Image } from "astro:assets";
+
+import { author } from "../config.json";
+---
+
+<div class="bg-gray-50">
+  <div class="max-w-screen-xl mx-auto py-16">
+    <h2 class="text-5xl mb-8 font-semibold text-gray-900 px-4">
+      <span class="underline">Training</span>
+    </h2><div class="flex-none sm:flex">
+      <div class="sm:flex-1 px-4">
+        <Image
+          class="mb-4 rounded-md filter grayscale"
+          src={"/nat-speech.png"}
+          width={500}
+          height={500}
+          alt={author.name}
+          format={"avif"}
+        />
+      </div><div class="text-lg text-gray-600 sm:flex-1 px-4 font-body">
+        <p class="mb-4">
+          Over the years Natalee has trained hundreds in the area of Occupational Safety and Health.
+        </p><p class="mb-4">
+          Sharing her knowledge and also learning from her students is a true passion.
+        <p class="text-sm italic text-gray-500">
+          {author.location}
+        </p><div class="flex flex-row my-2">
+          <a href={author.linkedinUrl} target="_blank"><Linkedin /></a>
+          <a href={author.instagramUrl} target="_blank"><Instagram /></a>
+          <a href={author.twitterUrl} target="_blank"><Twitter /></a>
+        </div>
+        <div>
+          <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+            <div>
+              <a
+                href="https://www.instagram.com/safetyfirstlady/"
+                target="_blank"
+                class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 rounded-md font-semibold text-black bg-book-theme hover:bg-yellow-200 focus:outline-none transition duration-300 ease-in-out md:py-4 md:text-lg md:px-10"
+                >Book a Training</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

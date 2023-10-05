@@ -1,0 +1,33 @@
+{
+  "showAmazonTag": false,
+  "showCountingSell": false,
+  "showBuyAudiobookButton": false,
+  "seo": {
+    "title": "Livro Chapada do Corisco por Alisson Carvalho",
+    "description": "Um remador solitário e a tragédia que maculou a história da vila de pescadores",
+    "canonical": "https://www.livrochapadadocorisco.com",
+    "locale": "pt_BR",
+    "image": "/og_image_800_600_2.png"
+  },
+  "theme": {
+    "color": "#f59e0b"
+  },
+  "author": {
+    "name": "Natalee Harrigan",
+    "email": "alissonmssc@gmail.com",
+    "location": "St. Michael, Barbados",
+    "twitterUrl": "https://twitter.com/nataleeharrigan",
+    "instagramUrl": "https://www.instagram.com/ladyharrigan/",
+    "linkedinUrl": "https://www.linkedin.com/in/nataleeharrigan/"
+  },
+  "book": {
+    "title": "Natalee Harrigan",
+    "isbn": "978-65-89313-54-0",
+    "releaseDate": "2022-03-28",
+    "price": "34.9",
+    "currency": "BRL",
+    "buyPhysicalUrl": "https://www.arteimpressaeditora.com.br/product-page/chapada-do-corisco-alisson-carvalho",
+    "buyDigitalUrl": "https://www.amazon.com.br/Chapada-do-Corisco-Alisson-Carvalho-ebook/dp/B09WTD7RW9/",
+    "buyAudiobookUrl": "#"
+  }
+}
