@@ -34,7 +34,7 @@
       summary:
         "Safety info for ALL types of work",
       location: "St. Michael, Barbados",
-      twitterUrl: "https://twitter.com/auryo_j",
+      twitterUrl: "https://twitter.com/nataleeharrigan",
       instagramUrl: "https://www.instagram.com/ladyharrigan/",
       linkedinUrl: "https://www.linkedin.com/in/nataleeharrigan/",
     },
