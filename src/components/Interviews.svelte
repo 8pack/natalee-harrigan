@@ -69,8 +69,8 @@
                   ><Linkedin />
                 </a>
               {/if}
-              {#if linkedinUrl}
-                <a title="Linkedin link" href={linkedinUrl} target="_blank"
+              {#if instagramUrl}
+                <a title="Instagram link" href={linkedinUrl} target="_blank"
                   ><Instagram />
                 </a>
               {/if}
