@@ -46,7 +46,7 @@ import { seo, author, book } from "../config.json";
     <title>{seo.title}</title>
 
     <!-- Google tag (gtag.js) -->
-    <script
+    <!-- <script
       type="text/partytown"
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-9FXFDTDRH4"></script>
@@ -58,7 +58,11 @@ import { seo, author, book } from "../config.json";
       gtag("js", new Date());
 
       gtag("config", "G-9FXFDTDRH4");
-    </script>
+    </script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Slab:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto+Slab:wght@100;400&display=swap" rel="stylesheet">
   </head>
   <body>
     <slot />
